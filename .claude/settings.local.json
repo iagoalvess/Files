@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.cs$\")",
+      "Bash(xargs grep:*)",
+      "Bash(find:*)",
+      "Bash(bash /tmp/analyze_tests.sh)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
